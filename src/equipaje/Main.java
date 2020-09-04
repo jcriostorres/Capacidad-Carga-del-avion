@@ -55,7 +55,13 @@ public class Main {
             System.out.println("************************");
 
            //metodos a calcular
-         
+        if(peso< 25){
+            costo = 0;
+        } else if (peso >=25 && peso <300){
+            costo = 1500;
+        } else{
+                costo = 2500;
+                }
            
         }
 
